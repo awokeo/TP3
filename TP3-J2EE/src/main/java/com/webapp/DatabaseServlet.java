@@ -9,9 +9,9 @@ import java.io.PrintWriter;
 import java.sql.*;
 
 public class DatabaseServlet extends HttpServlet {
-    private static final String url = "jdbc:postgresql://localhost/company";
+    private static final String url = "jdbc:postgresql://localhost/postgres";
     private static final String user = "postgres";
-    private static final String pass = "123456";
+    private static final String pass = "aobinna";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
